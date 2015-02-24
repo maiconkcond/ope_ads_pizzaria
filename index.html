@@ -13,17 +13,17 @@
 	<script type="text/javascript" src="_js/bootstrap.js"></script>
 	
 </head>
-<body>	
+<body data-syp="scroll" data-target=".sidebar">	
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<header>
 				<div class="span12 cabecalho">		
 					<div id="logo">
-				<img src="_img/logo.png" height="150px" width="150px"/>
+				<img src="_img/logo.png" height="250px" width="250px"/>
 			</div>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar">
 					<div class="navbar-inner">
-						<div class="container">
+						<div class="container-fluid">
 							<!--btn-navbar serve para alternar o menu conforme a resolução-->
 						<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 							<span class="icon-bar"></span>
@@ -47,10 +47,41 @@
 				</nav>
 				</div>
 				</header>
-
+				<section class="carousel slide" id="carrosel">
+					<div class="carousel-inner">
+						<section class="active item">
+							<img src="_img/img1.jpg" alt="">
+							<div class="carousel-caption">
+								<h4>Primeiro Rótulo do Slide</h4>
+								<p>Cara estou acompanhando este curso e já me inscrevi no canal. Aulas de boa qualidade e com conteúdo. Tem muito curso pago por ai que não possui uma didática como a que tenho visto, mais uma vez parabéns pelas vídeo aulas.﻿</p>
+							</div>
+						</section>
+						<section class="item">
+							<img src="_img/img2.jpg" alt="">
+							<div class="carousel-caption">
+								<h4>Segundo Rótulo do Slide</h4>
+								<p>Cara estou acompanhando este curso e já me inscrevi no canal. Aulas de boa qualidade e com conteúdo. Tem muito curso pago por ai que não possui uma didática como a que tenho visto, mais uma vez parabéns pelas vídeo aulas.﻿</p>
+							</div>
+						</section>
+							<section class="item">
+							<img src="_img/img3.jpg" alt="">
+							<div class="carousel-caption">
+								<h4>Terceiro Rótulo do Slide</h4>
+								<p>Cara estou acompanhando este curso e já me inscrevi no canal. Aulas de boa qualidade e com conteúdo. Tem muito curso pago por ai que não possui uma didática como a que tenho visto, mais uma vez parabéns pelas vídeo aulas.﻿</p>
+							</div>
+						</section>
+					</div>
+					<a href="#carrosel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
+					<a href="#carrosel" class="carousel-control right" data-slide="next">&rsaquo;</a>
+				</section>
+	
 				</div>
 				
 			</div>
+			<script type="text/javascript">
+			$('.carousel').carousel({
+				interval: 5000
+			})</script>
 			
 	
 	<!--
