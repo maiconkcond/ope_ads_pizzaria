@@ -5,6 +5,12 @@ body{
 
 .container,.row { text-align: center !important;}
 
+.cabecalho{
+	border-radius: 25px;
+	border: 5px solid white;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
 .nav.nav-center {
     display: inline-block !important;
     left: 0 !important;
@@ -31,17 +37,22 @@ img{
 }
 
 .blocos{
-	background-color: #FFeeFF;
-	padding: 0px;
+	background-color: #FFFFF0;
+	padding: 5px;
 	margin-bottom: 5px;
 	border-radius: 25px;
-	border: 5px solid white;
+	/*border: 1px solid black;*/
 	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+
 }
 .blocos img{
 	padding: 0px;
 	margin: 0px;
+	border: 1px solid black;
 	border-radius: 25px;
+	height: 270px;
+	width: 270px;
+
 }
 .vejamais{
 	text-align: right;
@@ -85,7 +96,57 @@ position: absolute;
 right: 0;
 top: -10px;
 }
+.rodape{
+	margin-top: 10px;
+	border-radius: 25px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	background-color: #FFFFF0;
+}
+.table td{
+	padding: 0px;
+	color: #808080;
+	text-align: center;
+}
+.rodape-left{
+	padding: 10px;
+}
 
+.tit-tabela{
+	color: black !important;
+	text-align: center !important;
+	font-weight: bold;
+}
+.rodape-right img{
+	padding-top: 40px;
+}
+.menu-rodape li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 9px;
+	padding: 0px;	
+}
+.menu-rodape a {
+	color: #7C0000;
+}
+
+
+.menu-rodape {
+	margin: 0px !important;
+	}
+.rodape-center hr{
+	margin: 0px 0;
+}
+.rodape-center h2{
+	text-shadow: 1px 1px 3px #666, -1px -1px 3px #fff, 1px
+1px #666, -1px -1px #fff;
+	color: #7C0000;
+}
+
+.rodape-center h4{
+	
+	color: #7C0000;
+}
 /*
 div#telefone img{
 	position: absolute;
