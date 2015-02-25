@@ -1,6 +1,30 @@
+body{
+	background-color: #D9CCB8 !important;
+}
 
 
+.container,.row { text-align: center !important;}
 
+.nav.nav-center {
+    display: inline-block !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin:0 !important;
+    float:none !important;
+}
+img{
+	margin: 0 auto;
+}
+
+.carousel-caption h4,p {
+	text-align: left;
+}
+
+.blocos{
+	background-color: #FFeeFF;
+	padding: 0px;
+	margin-bottom: 5px;
+}
 /*
 div#telefone img{
 	position: absolute;

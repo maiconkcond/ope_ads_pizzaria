@@ -5,24 +5,19 @@
 	<meta name="description" content="Pizzaria e Esfiharia Pão Nosso"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Pizzaria e Esfiharia Pão Nosso</title>
-
+	<link rel="stylesheet" href="_css/estilo.css">
 	<link rel="stylesheet" href="_css/bootstrap.css">
 	<link rel="stylesheet" href="_css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="_css/estilo.css">
-
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 	<script type="text/javascript" src="_js/bootstrap.js"></script>
 	
 </head>
 <body data-syp="scroll" data-target=".sidebar">	
-	<div class="container">
-		<div class="row-fluid">
-			<header>
-				<img src="_img/logo.png"/>
 
-				<!--inicio do Menu-->	
-				<nav  class="navbar navbar-inverse">
+
+				<!--Inicio do Menu-->
+				<nav id="custom-bootstrap-menu" class="navbar" navbar-custom>
 					<div class="navbar-inner">
 						<div class="container">
 							<!--btn-navbar serve para alternar o menu conforme a resolução-->
@@ -31,8 +26,9 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<div class="nav-collapse collapse">
-								<ul class="nav nav-center">
+							<div class="nav-collapse collapse ">
+								<ul class="nav nav-center" >
+ 
 									<li><a class="active" href="index.html">Home</a></li>
 									<li><a href="index.html">A Pizzaria</a></li>
 									<li><a href="index.html">Cárdapio</a></li>
@@ -47,57 +43,7 @@
 					</div>
 				</nav>
 				<!--Fim do Menu-->
-				</div>
-				<!--inicio do Banner Slide-->
-				</header>
-				<section class="carousel slide" id="carrosel">
-					<div class="carousel-inner">
-						<section class="active item">
-							<img src="_img/img1.jpg" alt="">
-							<div class="carousel-caption">
-								<h4>Primeiro Rótulo do Slide</h4>
-								<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-									"Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."﻿</p>
-							</div>
-						</section>
-						<section class="item">
-							<img src="_img/img2.jpg" alt="">
-							<div class="carousel-caption">
-								<h4>Segundo Rótulo do Slide</h4>
-								<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-									"Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."</p>
-							</div>
-						</section>
-							<section class="item">
-							<img src="_img/img3.jpg" alt="">
-							<div class="carousel-caption">
-								<h4>Terceiro Rótulo do Slide</h4>
-								<p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-									"Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor...".﻿</p>
-							</div>
-						</section>
-					</div>
-					<a href="#carrosel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
-					<a href="#carrosel" class="carousel-control right" data-slide="next">&rsaquo;</a>
-				</section>
-				<!--Fim do Banner Slide-->
-				
-				<section>
-					<div class="row-fluid">
-      					<div class="span3 blocos ">Nível 2</div>
-      					<div class="span3 blocos ">Nível 2</div>
-      					<div class="span3 blocos ">Nível 2</div>
-      					<div class="span3 blocos ">Nível 2</div>
-    				</div>
-				</section>
-	
-				</div>
-				
-			
-			<script type="text/javascript">
-			$('.carousel').carousel({
-				interval: 5000
-			})</script>
+
 			
 	
 	<!--
