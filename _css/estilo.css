@@ -6,11 +6,11 @@ body{
 .container,.row { text-align: center !important;}
 
 .cabecalho{
-	border-radius: 25px;
-	border: 5px solid white;
+	border: 1px solid black;
 	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	background-color: #FFFFF0;
+	border-radius: 25px;
 }
-
 .nav.nav-center {
     display: inline-block !important;
     left: 0 !important;
@@ -18,15 +18,27 @@ body{
     margin:0 !important;
     float:none !important;
 }
+.navbar{
+		margin-bottom: 0px !important;
+
+}
 .menu{
-	border-radius: 25px;
-	border: 5px solid #FFF;
-	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	/*border: 5px solid #FFF;*/
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,1);*/
+	overflow: hidden;
+
 }
 .banner{
 	border-radius: 25px;
 	border: 5px solid white;
 	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+	margin-top: 22px;
 }
 img{
 	margin: 0 auto;
